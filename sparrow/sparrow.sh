@@ -1,6 +1,4 @@
 #ubuntu 18.04.1 LTS
-mkdir sparrow
-cd sparrow
 git clone git://github.com/ropas/sparrow.git
 
 #OCaml OPAM
@@ -8,6 +6,8 @@ sudo add-apt-repository ppa:avsm/ppa
 sudo apt update
 sudo apt install ocaml opam
 sudo apt install make m4
+
+#the following may not be necessary if the build script somewhat works
 
 #Batteries
 opam install batteries
