@@ -7,6 +7,9 @@ sudo apt update
 sudo apt install ocaml opam
 sudo apt install make m4
 
+#Needed sometimes
+opam update
+
 #the following may not be necessary if the build script somewhat works
 
 #Batteries

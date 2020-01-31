@@ -1,0 +1,1 @@
+It seems the build.sh from https://github.com/KihongHeo/sparrow works and is better
